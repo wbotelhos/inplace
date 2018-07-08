@@ -1,0 +1,54 @@
+{
+  "author": "Washington Botelho",
+  "bugs": {
+    "url": "https://github.com/wbotelhos/inplace/issues"
+  },
+  "contributors": [
+    "Washington Botelho <wbotelhos@gmail.com> (http://wbotelhos.com)"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "description": "Inplace - A Wizard Plugin",
+  "devDependencies": {
+    "jasmine-core": "^2.99.1",
+    "jasmine-jquery": "^2.1.1",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.1.1",
+    "karma-firefox-launcher": "^1.1.0",
+    "karma-fixture": "^0.2.6",
+    "karma-html2js-preprocessor": "^1.1.0",
+    "karma-ie-launcher": "^1.0.0",
+    "karma-jasmine": "^1.1.2",
+    "karma-opera-launcher": "^1.0.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-safari-launcher": "^1.0.0"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "spec"
+  },
+  "engines": {
+    "node": "^9"
+  },
+  "homepage": "https://github.com/wbotelhos/inplace",
+  "keywords": [
+    "step",
+    "step-by-step",
+    "wizard"
+  ],
+  "license": "MIT",
+  "main": "lib/inplace.js",
+  "maintainers": [
+    "Washington Botelho <wbotelhos@gmail.com> (http://wbotelhos.com)"
+  ],
+  "name": "inplace",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wbotelhos/inplace"
+  },
+  "scripts": {
+    "test": "node_modules/karma/bin/karma start karma.conf.js"
+  },
+  "version": "0.1.0"
+}
