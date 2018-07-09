@@ -28,14 +28,13 @@
     "lib": "lib",
     "test": "spec"
   },
-  "engines": {
-    "node": "^9"
-  },
   "homepage": "https://github.com/wbotelhos/inplace",
   "keywords": [
-    "step",
-    "step-by-step",
-    "wizard"
+    "editor",
+    "in-place-editor",
+    "in-place",
+    "inplace-editor",
+    "inplace"
   ],
   "license": "MIT",
   "main": "lib/inplace.js",
