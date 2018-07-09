@@ -5,7 +5,7 @@
 [![Dependency](https://david-dm.org/wbotelhos/inplace.svg)](https://david-dm.org/wbotelhos/inplace)
 [![Dev Dependency](https://david-dm.org/wbotelhos/inplace/dev-status.svg)](https://david-dm.org/wbotelhos/inplace#info=devDependencies)
 [![Code Climate](https://codeclimate.com/github/wbotelhos/inplace.png)](https://codeclimate.com/github/wbotelhos/inplace)
-[![Support](https://img.shields.io/badge/donate-%3C3-brightgreen.svg)](https://liberapay.com/wbotelhos)
+[![Support](https://img.shields.io/badge/donate-%3C3-brightgreen.svg)](https://www.patreon.com/wbotelhos)
 
 Inplace is an tiny inplace editor to enable a quick ajax update with no need to create a form.
 
@@ -66,12 +66,3 @@ On JS you can declare attributes too, but data attributes has priority:
 ```js
 $('.inplace').inplace({ url: '/save' });
 ```
-
-## Functions
-
-```js
-```
-
-## Contributors
-
-[Check it out](http://github.com/wbotelhos/inplace/graphs/contributors)
