@@ -12,39 +12,12 @@ Inplace is an tiny inplace editor to enable a quick ajax update with no need to 
 ## Options
 
 ```js
-buttonOrder:   ['cancel', 'save']                // the cancel and save order button on screen
-cancel:        true                              // enables cancel button creation
-cancelClass:   'inplace__cancel'                 // the cancel button class
-cancelValue:   'Cancel'                          // the cancel button label
-checkable:     ['checkbox', 'radio']             // html elements that will listen check change
-fieldClass:    'inplace__field'                  // the field class
-fieldName:     undefined                         // the field name
-fieldTemplate: '{name}'                          // template used to build custom names format
-fieldType:     'text'                            // the field type
-method:        'PATCH'                           // method used on ajax request
-save:          true                              // enables save button creation
-saveClass:     'inplace__save'                   // the save button class
-saveValue:     'Save'                            // the save button label
-selectable:    ['select-one', 'select-multiple'] // html elements that will listen select change
-typeful:       [                                 // html elements that will listen enter change
-  'color',
-  'date',
-  'datetime',
-  'datetime-local',
-  'email',
-  'hidden',
-  'month',
-  'number',
-  'password',
-  'range',
-  'search',
-  'tel',
-  'text',
-  'textarea',
-  'time',
-  'url',
-  'week'
-]
+`data-field-name`: Name of the field;
+`data-field-text`: Name of the attribute of the returned JSON used to be the inplace text;
+`data-field-value`: Value of the field;
+`data-field-type`: Field type that can be `text` or `select`;
+`data-options`: Data options setted on the field with prefix `inplace-`;
+`data-url`: URL used to post the data;
 ```
 
 ## Usage
