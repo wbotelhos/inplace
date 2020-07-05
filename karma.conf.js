@@ -2,10 +2,9 @@ module.exports = function(config) {
   'use strict';
 
   config.set({
-    autoWatch:       true,
-    browsers:        ['ChromeNoSandbox', 'Firefox'],
-    customLaunchers: { ChromeNoSandbox: { base: 'Chrome', flags: ['--no-sandbox'] } },
-    debug:           true,
+    autoWatch: true,
+    debug:     true,
+    browsers:  ['Chrome', 'Firefox'],
 
     files: [
       'node_modules/jquery/dist/jquery.min.js',
