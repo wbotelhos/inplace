@@ -7,17 +7,17 @@
     "Washington Botelho <wbotelhos@gmail.com> (https://www.danca.com)"
   ],
   "dependencies": {
-    "jquery": "^3.4.1"
+    "jquery": "3.6.0"
   },
   "description": "Inplace is an tiny inplace editor to enable a quick ajax update with no need to create a form.",
   "devDependencies": {
-    "jasmine-core": "^3.5.0",
-    "karma": "^5.1.0",
-    "karma-chrome-launcher": "^3.1.0",
-    "karma-html2js-preprocessor": "^1.1.0",
-    "karma-firefox-launcher": "^1.3.0",
-    "karma-fixture": "^0.2.6",
-    "karma-jasmine": "^3.3.1"
+    "jasmine-core": "4.1.0",
+    "karma": "6.3.19",
+    "karma-chrome-launcher": "3.1.1",
+    "karma-firefox-launcher": "2.1.2",
+    "karma-fixture": "0.2.6",
+    "karma-html2js-preprocessor": "1.1.0",
+    "karma-jasmine": "5.0.0"
   },
   "directories": {
     "lib": "lib",
