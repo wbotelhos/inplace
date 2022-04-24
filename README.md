@@ -1,11 +1,9 @@
 # Inplace - An inplace editor
 
-[![Build Status](https://img.shields.io/travis/wbotelhos/inplace/master.svg)](https://travis-ci.org/wbotelhos/inplace)
-[![NPM Version](https://badge.fury.io/js/inplace.svg)](https://badge.fury.io/js/inplace)
-[![Dependency](https://david-dm.org/wbotelhos/inplace.svg)](https://david-dm.org/wbotelhos/inplace)
-[![Dev Dependency](https://david-dm.org/wbotelhos/inplace/dev-status.svg)](https://david-dm.org/wbotelhos/inplace#info=devDependencies)
-[![Code Climate](https://codeclimate.com/github/wbotelhos/inplace.png)](https://codeclimate.com/github/wbotelhos/inplace)
-[![Support](https://img.shields.io/badge/donate-%3C3-brightgreen.svg)](https://www.patreon.com/wbotelhos)
+[![CI](https://github.com/wbotelhos/inplace/workflows/CI/badge.svg)](https://github.com/wbotelhos/inplace/actions)
+[![Gem Version](https://badge.fury.io/rb/inplace.svg)](https://badge.fury.io/rb/inplace)
+[![Maintainability](https://api.codeclimate.com/v1/badges/564bb28fc6575ef992dc/maintainability)](https://codeclimate.com/github/wbotelhos/inplace/maintainability)
+[![Sponsor](https://img.shields.io/badge/sponsor-%3C3-green)](https://www.patreon.com/wbotelhos)
 
 Inplace is an tiny inplace editor to enable a quick ajax update with no need to create a form.
 
